@@ -1,4 +1,3 @@
-import androidhelper
 import os
 import time
 import colorama
@@ -22,8 +21,6 @@ print(Fore.GREEN +"                         ╚═════╝░╚═══
 
 print(Fore.BLUE + "\n                      ----------CREATED BY MR.BRUTUS-----------\n")
 
-droid = androidhelper.Android()
-droid.makeToast('HELLO WEKCOME TO MY TOOL')
 
 x = input(Fore.RED +" URL: ")
 y = input(" Thread ")
